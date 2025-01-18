@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.card{
+    background-color: #222;
+    color: white;
+    padding: 1rem;
+    min-height: 80vh;
+    width:50%;
+    /*overflow: scroll;*/
+    border-radius: 0.6rem;
+}
+
+.card-title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+input{
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    width: 80%;
+}
+
+.btn{
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.6rem;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#addButton{
+    width : 19%;
+}
+
+.li-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    transition: all 0.3s;
+}
+
+.li-style:hover{
+    background-color: #444;
+}
+
+.bg-success{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color: lightgreen;
+    border-left:6px solid green;
+}
+
+.bg-danger{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color: lightcoral;
+    border-left:6px solid red;
+}
